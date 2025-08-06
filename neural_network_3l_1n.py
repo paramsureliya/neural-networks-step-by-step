@@ -20,7 +20,7 @@ b1 = np.random.normal()
 a2 = np.random.normal()
 b2 = np.random.normal()
 learning_rate = 0.01
-epochs = 1000
+epochs = 5000
 
 for epoch in range(epochs):
     
