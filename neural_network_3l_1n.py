@@ -71,6 +71,6 @@ for epoch in range(epochs):
         a0 = a0 - learning_rate*dl_da0
         b0 = b0 - learning_rate*dl_db0
 
-    if epoch % 10 == 0:
+    if epoch % 100 == 0:
         print("Epoch %d loss: %.3f" % (epoch, loss))
 
