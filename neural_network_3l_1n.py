@@ -44,7 +44,6 @@ for epoch in range(epochs):
         hidden_layer_output_2 = sigmoid(hidden_layer_2)
 
         y_pred = hidden_layer_output_2
-
         loss = (y_pred - y)**2
 
         # Output layer gradients:
