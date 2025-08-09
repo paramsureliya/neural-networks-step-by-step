@@ -5,6 +5,7 @@ def sigmoid(x):
 
 # This is derivative of sigmoid: σ'(x) = σ(x) * (1 - σ(x))
 def der_sigmoid(x):
+   
    return sigmoid(x)*(1-sigmoid(x))
 
 data = np.array([[0,0],[0,1],[1,0],[1,1]])
