@@ -33,7 +33,6 @@ b20 = np.random.normal()
 
 
 learning_rate = 0.001
-
 epochs = 500
 
 for epoch in range(epochs):
